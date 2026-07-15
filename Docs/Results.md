@@ -10,14 +10,14 @@
 | Accuracy after reg-A override | ~66 to 67% |
  
 
-| Model | Strict (%) | Tol. v1 (%) | Tol. v2 (%) | Macro-F1 (%) | ECE (%) |
+| Model | Strict (%) | Tol. v1 (%) | Tol. v2 (%)  | ECE (%) |
 |---|---|---|---|---|---|
-| M1 DenseNet121 | 61.7 | 87.9 | 76.6 | 62.5 | 6.8 |
-| M2 YOLOv8 | 38.1 | 79.9 | 70.1 | 18.4 | 33.7 |
-| M4 TorchXRayVision | 42.6 | 78.6 | 64.9 | 38.5 | 28.2 |
-| M5 ConvNeXtV2 | 54.8 | 86.8 | 80.1 | 52.9 | 8.9 |
-| M6 EfficientNetV2-S | 64.1 | 89.4 | 78.3 | 64.5 | 12.8 |
-| M7 DINOv2 | 65.8 | 86.4 | 77.5 | 65.0 | 6.6 |
+| M1 DenseNet121 | 61.7 | 87.9 | 76.6 | 6.8 |
+| M2 YOLOv8 | 38.1 | 79.9 | 70.1  | 33.7 |
+| M4 TorchXRayVision | 42.6 | 78.6 | 64.9  | 28.2 |
+| M5 ConvNeXtV2 | 54.8 | 86.8 | 80.1  | 8.9 |
+| M6 EfficientNetV2-S | 64.1 | 89.4 | 78.3 | 12.8 |
+| M7 DINOv2 | 65.8 | 86.4 | 77.5  | 6.6 |
 
 Per-factor best model:
  
